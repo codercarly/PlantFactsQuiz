@@ -1,0 +1,358 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        tools:context=".MainActivity">
+
+        <!-- Plant Facts Title Info -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:src="@drawable/plantfactstitle"/>
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 1 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q1Title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 1 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q1"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/apple2" />
+        </LinearLayout>
+        <!-- Question 1: Multiple-Choice -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q1Answer1"/>
+            <RadioButton
+                android:id="@+id/Q1Correct"
+                style="@style/Radio"
+                android:text="@string/Q1Answer2"/>
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q1Answer3"/>
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q1Answer4"/>
+        </RadioGroup>
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 2 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q2Title" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 2 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q2"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/ocean_forest" />
+        </LinearLayout>
+        <!-- Question 2: Multiple Choice -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q2Answer1"/>
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q2Answer2"/>
+            <RadioButton
+                android:id="@+id/Q2Correct"
+                style="@style/Radio"
+                android:text="@string/Q2Answer3"/>
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q2Answer4" />
+        </RadioGroup>
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 3 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q3Title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 3 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q3"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/potato" />
+        </LinearLayout>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!-- Question 3: True or False -->
+            <RadioButton
+                android:id="@+id/Q3Correct"
+                style="@style/Radio"
+                android:text="@string/Q3Answer1"/>
+
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q3Answer2"/>
+        </RadioGroup>
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 4 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q4Title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 4 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q4"/>
+
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/brazilnuttree" />
+        </LinearLayout>
+        <!-- Question 4: Write-In Answer -->
+        <EditText
+            android:id="@+id/Q4Answer"
+            style="@style/WriteIn"
+            android:hint="@string/Q4Answer"/>
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 5 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q5Title" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 5 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q5"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/ginko2" />
+        </LinearLayout>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!-- Question 5: True or False -->
+            <RadioButton
+                android:id="@+id/Q5Correct"
+                style="@style/Radio"
+                android:text="@string/Q5Answer1"/>
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q5Answer2"/>
+        </RadioGroup>
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 6 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q6Title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 6 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q6"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/onions2" />
+        </LinearLayout>
+        <!-- Question 6: True or False -->
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Q6Correct"
+                style="@style/Radio"
+                android:text="@string/Q6Answer1"/>
+
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q6Answer2"/>
+        </RadioGroup>
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 7 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q7Title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 7 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q7"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/lightning2" />
+        </LinearLayout>
+        <!-- Question 7: Multiple-Choice -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q7Answer1"/>
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q7Answer2"/>
+            <RadioButton
+                android:id="@+id/Q7Correct"
+                style="@style/Radio"
+                android:text="@string/Q7Answer3"/>
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q7Answer4" />
+        </RadioGroup>
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 8 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q8Title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 8 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q8"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/pencils2" />
+        </LinearLayout>
+        <!-- Question 8: Check Correct Answers -->
+        <CheckBox
+            android:id="@+id/Q8CorrectA"
+            style="@style/Radio"
+            android:text="@string/Q8Answer1" />
+        <CheckBox
+            android:id="@+id/Q8CorrectB"
+            style="@style/Radio"
+            android:text="@string/Q8Answer2" />
+        <CheckBox
+            style="@style/Radio"
+            android:text="@string/Q8Answer3" />
+        <CheckBox
+            android:id="@+id/Q8CorrectC"
+            style="@style/Radio"
+            android:text="@string/Q8Answer4" />
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 9 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q9Title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 9 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q9"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/cucumber" />
+        </LinearLayout>
+        <!-- Question 9: Write-In Answer -->
+        <EditText
+            android:id="@+id/Q9Answer"
+            style="@style/WriteIn"
+            android:hint="@string/Q9Answer"
+            />
+        <View
+            style="@style/GrayBar"/>
+
+
+        <!-- QUESTION 10 -->
+        <TextView
+            style="@style/QHeader"
+            android:text="@string/Q10Title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- Question 10 -->
+            <TextView
+                style="@style/Question"
+                android:text="@string/Q10"/>
+            <ImageView
+                style="@style/QImage"
+                android:src="@drawable/carrots2" />
+        </LinearLayout>
+        <!-- Question 10: True or False -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/Q10Correct"
+                style="@style/Radio"
+                android:text="@string/Q10Answer1"/>
+            <RadioButton
+                style="@style/Radio"
+                android:text="@string/Q10Answer2"/>
+        </RadioGroup>
+        <View
+            style="@style/GrayBar"/>
+
+
+       <!-- SUBMIT ANSWERS -->
+        <Button
+            style="@style/Button"
+            android:onClick="submitQuiz"
+            android:text="@string/Submit"/>
+
+
+    </LinearLayout>
+</ScrollView>

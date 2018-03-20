@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Plant Facts Quiz</string>
+
+    <!-- Title -->
+    <string name="Title">Plant Facts Quiz</string>
+
+    <!-- Subtitle -->
+    <string name="Subtitle">Time to test your knowledge of the crazy natural world!</string>
+
+    <!-- Question 1 -->
+    <string name="Q1Title">Question 1: </string>
+    <string name="Q1">Why do apples float in water and pennies sink?</string>
+    <string name="Q1Answer1">Apples are witches and witches float on water.</string>
+    <string name="Q1Answer2">They\'re 25% air.</string>
+    <string name="Q1Answer3">Apples were genetically bred to float by the Native Americans.</string>
+    <string name="Q1Answer4">"They idolize Michael Phelps and learned to swim."</string>
+
+    <!-- Question 2 -->
+    <string name="Q2Title">Question 2: </string>
+    <string name="Q2">85% of plant life is found in this place on earth &#8230;</string>
+    <string name="Q2Answer1">In the rain forest.</string>
+    <string name="Q2Answer2">My friend Mel\'s house, she really loves plants.</string>
+    <string name="Q2Answer3">In the ocean.</string>
+    <string name="Q2Answer4">That\'s impossible, 85% of plants can\'t be found in one place.</string>
+
+    <!-- Question 3 -->
+    <string name="Q3Title">Question 3: </string>
+    <string name="Q3">The first potatoes were cultivated in Peru, 7,000 &#8211; 10,000 years ago.</string>
+    <string name="Q3Answer1">TRUE: You can find ancient potatoes in lakes!</string>
+    <string name="Q3Answer2">FALSE: Blarney! The Irish were the first!</string>
+
+    <!-- Question 4 -->
+    <string name="Q4Title">Question 4: </string>
+    <string name="Q4">Which South American country is named after a tree?</string>
+    <string name="Q4Answer">Type your answer here &#8230;</string>
+    <string name="Brazil">Brazil</string>
+
+    <!-- Question 5 -->
+    <string name="Q5Title">Question 5: </string>
+    <string name="Q5">Ginko (Ginkgo biloba) is one of the oldest living tree species.</string>
+    <string name="Q5Answer1">TRUE: Dinosaurs loved to plant them in their gardens.</string>
+    <string name="Q5Answer2">FALSE: Ginkgo isn\'t a tree, it\'s a herb that helps with memory. Or did you forget?</string>
+
+    <!-- Question 6 -->
+    <string name="Q6Title">Question 6: </string>
+    <string name="Q6">Eating lots of onions will make you sleepy.</string>
+    <string name="Q6Answer1">TRUE: Smell \'em and eat \'em before bed!</string>
+    <string name="Q6Answer2">FALSE: Onions are a repellent, Janet.</string>
+
+    <!-- Question 7 -->
+    <string name="Q7Title">Question 7: </string>
+    <string name="Q7">Which tree variety is struck by lightning the most?</string>
+    <string name="Q7Answer1">Maple trees.</string>
+    <string name="Q7Answer2">The giant sequoia.</string>
+    <string name="Q7Answer3">Oak trees.</string>
+    <string name="Q7Answer4">"That's impossible, lightning doesn't descriminate."</string>
+
+    <!-- Question 8 -->
+    <string name="Q8Title">Question 8: </string>
+    <string name="Q8">Which of the follow facts about pencils are correct?</string>
+    <string name="Q8Answer1">15 billion pencils are made world-wide each year.</string>
+    <string name="Q8Answer2">Approximately 60,000 trees are needed to produce pencils each year.</string>
+    <string name="Q8Answer3">Mechanical pencils are only sourced from Mechanical trees.</string>
+    <string name="Q8Answer4">The trees needed each year to make pencils could stretch 684 miles.</string>
+
+    <!-- Question 9 -->
+    <string name="Q9Title">Question 9: </string>
+    <string name="Q9">Is a cucumber a fruit or vegetable?</string>
+    <string name="Q9Answer">Type your answer here &#8230;</string>
+    <string name="Fruit">fruit</string>
+
+    <!-- Question 10 -->
+    <string name="Q10Title">Question 10: </string>
+    <string name="Q10">Carrots were originally purple, not orange.</string>
+    <string name="Q10Answer1">TRUE: The Dutch were mad scientists and their lab experiment blew up in their face and turned orange. The carrot gained superpowers. </string>
+    <string name="Q10Answer2">FALSE: If any lab experiment goes wrong you either turn green or gain the powers of a spider, everyone knows that.</string>
+
+    <!-- Submit Answers -->
+    <string name="Submit">Submit your answers!</string>
+
+</resources>
+
+
