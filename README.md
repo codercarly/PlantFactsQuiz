@@ -6,3 +6,6 @@ A basic quiz app utilizing most of the Basics Course material. Some material I w
 I was able to learn from others how to use the styles, colors, and strings xml files to keep unneccesary code from the activity_main. I saw many mentions of using the reference ID's in onCreate but I was unable to successfully get it to work. I also lose data what I rotate the phone. I found the Android reference code to elimiate that problem but I didn't include it in the code since I didn't completely understand how to properly utilize it.
 
 I had a lot of fun doing this project! I can't wait to do more!
+
+
+![alt text](https://raw.githubusercontent.com/codercarly/PlantFactsQuiz/Scree-Shots/path/to/Plant Quiz1.png)
