@@ -8,3 +8,12 @@ I was able to learn from others how to use the styles, colors, and strings xml f
 I had a lot of fun doing this project! I can't wait to do more!
 
 ![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%201.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%202.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%203.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%204.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%205.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%206.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%207.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%208.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%209.png)
+![alt text](https://github.com/codercarly/PlantFactsQuiz/blob/Screen-Shots/Plant%20Quiz%2010.png)
