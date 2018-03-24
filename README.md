@@ -8,4 +8,4 @@ I was able to learn from others how to use the styles, colors, and strings xml f
 I had a lot of fun doing this project! I can't wait to do more!
 
 
-![alt text](https://raw.githubusercontent.com/codercarly/PlantFactsQuiz/Scree-Shots/path/to/Plant Quiz1.png)
+![alt text](https://raw.githubusercontent.com/codercarly/PlantFactsQuiz/Scree-Shots/path/to/PlantQuiz1.png)
